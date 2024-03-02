@@ -1,29 +1,32 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+body{  
     
+    max-width: 75%; 
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: beige;         
 }
 
-.content{
-    width: 65%;
-    padding-left: 50px;
-    padding-right: 25px;
-    background-color: beige;
-    
-}
 
 h1, h2{
-    padding-left: ;
+    
+    font-family: Quattrocento, serif;
     color: brown;
     font-weight: 700;
 }
 
+p{
+    font-family: Alice, serif;
+}
+
 li {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Alice, serif;
 }
 
 #header{
     display: inline-block;
-    float: ;
+    
 }
 
 #header li{
@@ -38,9 +41,9 @@ p, ul, ol{
 
 
 img{
- padding-left: ;
- border-radius: ;
+ 
+ 
  height: auto;
- width: 75%;
+ width: 100%;
  box-shadow: inset;   
 }
