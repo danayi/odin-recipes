@@ -3,12 +3,44 @@
     
 }
 
+.content{
+    width: 65%;
+    padding-left: 50px;
+    padding-right: 25px;
+    background-color: beige;
+    
+}
+
 h1, h2{
+    padding-left: ;
     color: brown;
     font-weight: 700;
 }
 
-p, li{
+li {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header{
+    display: inline-block;
+    float: ;
+}
+
+#header li{
+    list-style-type: none;
+}
+
+p, ul, ol{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+}
+
+
+
+img{
+ padding-left: ;
+ border-radius: ;
+ height: auto;
+ width: 75%;
+ box-shadow: inset;   
 }
