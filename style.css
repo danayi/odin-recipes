@@ -1,0 +1,14 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1, h2{
+    color: brown;
+    font-weight: 700;
+}
+
+p, li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
