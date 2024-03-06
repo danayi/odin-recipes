@@ -1,52 +1,38 @@
-body{  
-    
+body {  
     max-width: 75%; 
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     background-color: beige;         
 }
 
-ul {
-    display: inline-block;
+navi {
+    float: left;
 }
 
-h1, h2{
-    
+h1, h2 {
     font-family: Quattrocento, serif;
     color: brown;
     font-weight: 700;
 }
 
-p{
-    font-family: Alice, serif;
-}
-
-li {
-    font-family: 'Alice, serif;
-}
-
-#header{
-    display: inline-block;
-    
-}
-
-#header li{
-    list-style-type: none;
-}
-
-p, ul, ol{
+p, ul, ol {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
 
+li {
+    font-family: 'Alice', serif;
+}
 
+#header {
+    display: inline-block;
+}
 
-img{
- 
- 
- height: auto;
- width: 100%;
- box-shadow: inset;   
+#header li {
+    list-style-type: none;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    box-shadow: inset;   
 }
