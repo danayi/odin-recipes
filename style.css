@@ -1,11 +1,20 @@
-body {  
-    max-width: 75%; 
-    margin: 0 auto;
-    background-color: beige;         
+body {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-navi {
-    float: left;
+.content {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
 }
 
 h1, h2 {
@@ -25,14 +34,37 @@ li {
 
 #header {
     display: inline-block;
+    background-color: brown;
+    width: 100%;
 }
 
 #header li {
     list-style-type: none;
+    display: inline;
+    float: left;
 }
 
+#header a, .footer a {
+    text-decoration: none;
+    color: beige;
+    background-color: brown;
+    padding: 10px;
+    display: block;
+}
+
+.footer a {
+    color: brown;
+    background-color: beige;
+}
+
+.right a{
+    text-decoration: none;
+    line-height: 50px;
+    color: brown;
+    background-color: beige;
+}
 img {
     height: auto;
     width: 100%;
-    box-shadow: inset;   
+    box-shadow: inset;
 }
