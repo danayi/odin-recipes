@@ -1,3 +1,21 @@
+/* Add CSS media queries for responsiveness */
+@media (max-width: 768px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .column {
+        margin-bottom: 20px;
+    }
+    .column:last-child {
+        margin-bottom: 0;
+    }
+    .right {
+        text-align: center;
+    }
+}
+
+
 body {
     width: 100%;
     padding: 20px;
