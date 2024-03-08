@@ -67,4 +67,5 @@ img {
     height: auto;
     width: 100%;
     box-shadow: inset;
+    border-radius: 10px;
 }
